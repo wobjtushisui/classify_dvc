@@ -3,9 +3,9 @@ deps:
   path: data/Posts.tsv
 - md5: ae25b36c677067e81170f2db3cb2eca8
   path: code/split_train_test.py
-- md5: ebbc4166606ee2bbfac1d4d121beb7cf
+- md5: 17f591c0c65a450fd53b34ba0ac6df7b
   path: code/conf.py
-md5: 98c719ff4edd7a1f6d5f5fc670455a89
+md5: febbd2a3f45c7a70378332f0660dbaf3
 cmd: python code/split_train_test.py 0.33 20180319
 outs:
 - persist: false

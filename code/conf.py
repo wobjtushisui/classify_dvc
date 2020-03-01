@@ -13,4 +13,3 @@ test_matrix = os.path.join(data_dir, 'matrix-test.p')
 
 model = os.path.join(data_dir, 'model.p')
 
-author = 'wangjun'
