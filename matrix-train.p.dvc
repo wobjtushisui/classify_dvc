@@ -3,15 +3,15 @@ outs:
   cache: true
   metric: false
   persist: false
-  md5: e53e843d837ce60895d9ca5cd7e72b3c
+  md5: 59ed4bf528a97cd73518068e034d10aa
 - path: data/matrix-test.p
   cache: true
   metric: false
   persist: false
-  md5: 7d69c7b505ed801ee7d1a1fa783e99da
+  md5: eefd95f48cd8fdb9ccc0a791580639ab
 deps:
 - path: code/featurization.py
-  md5: d6ad87beda7f874860a0a6ffc7440b0a
+  md5: f950812ca2f5db127a0f4e1267d7c720
 - path: code/conf.py
   md5: 17f591c0c65a450fd53b34ba0ac6df7b
 - path: data/Posts-train.tsv
@@ -19,4 +19,4 @@ deps:
 - path: data/Posts-test.tsv
   md5: f50e2dec837e2089de7b3abe8b5699e0
 cmd: python code/featurization.py
-md5: ab8830d2e565c351783efe5041eeccb0
+md5: 475c06514cd03a38ea8caf54785cc991
